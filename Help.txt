@@ -8,7 +8,8 @@ public
 index.js
 
 
-package
+--NODE
+package.json
 
 "engines": {
     "node": "12.11.1"
@@ -28,3 +29,22 @@ Git
 
 git init
 git add .
+git commit -m "first commit"
+
+git remote add origin https://github.com/joseArranz/mehrnoosh-portfolio.git
+git branch -M master
+git push -u origin master
+
+
+
+heroku
+mehrnoosh-portfolio-test
+Deploy 
+- Conect github 
+- Automatic deply
+
+https://www.freecodecamp.org/news/how-to-deploy-a-nodejs-app-to-heroku-from-github-without-installing-heroku-on-your-machine-433bec770efe/
+Settings
+- Buildpacks
+Deploy 
+- deploy
