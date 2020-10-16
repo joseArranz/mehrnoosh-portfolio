@@ -1,0 +1,30 @@
+https://medium.com/@rishikavikondala/deploying-a-static-website-to-heroku-8c7138763e58
+
+npm init
+npm install express --save
+
+public
+	index.html
+index.js
+
+
+package
+
+"engines": {
+    "node": "12.11.1"
+ }
+
+
+
+"start": "node index.js"
+
+npm start
+
+
+
+Git
+
+1-add .gitignore
+
+git init
+git add .
